@@ -1,0 +1,20 @@
+# PyTorch (CUDA 11.8 compatible with RTX 3050)
+# Install with: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# torch==2.0.1
+# torchvision==0.15.2
+# torchaudio==2.0.2
+
+# Hugging Face Ecosystem
+transformers==4.35.2
+datasets==2.14.5
+accelerate==0.24.1
+sacremoses==0.0.53
+sentencepiece==0.1.99
+
+# Monitoring and Utilities
+tensorboard==2.14.1
+numpy==1.24.3
+
+# Optional: For better GPU support
+# torch-cuda-extensions  # Uncomment if you need CUDA extensions
+
